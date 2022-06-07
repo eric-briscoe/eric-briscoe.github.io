@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="octabits.com home page">
+    <meta name="description" content="eric-briscoe.github.io home page">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>octabits</title>
     <!-- Add to homescreen for Chrome on Android -->
@@ -13,7 +13,7 @@
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="octabits">
+    <meta name="apple-mobile-web-app-title" content="eric-briscoe">
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
     <!-- Tile icon for Win8 (144x144 + tile color) -->
     <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
@@ -29,15 +29,30 @@
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
+    <script>
+        var logClick = function(message) {
+            console.log(message);
+            alert(message);
+        }
+    </script>
 </head>
 
 <body>
 Hello World!
 <hr/>
 <div style="background-color: #ffcc00; width: 100%; height: 200px">Block One</div>
+<button onclick="logClick('First Block clicked')">Click me!</button>
 <hr/>
-<div style="background-color: #ff0000; width: 100%; height: 200px">Block Two</div>
+<hr/>
+<div style="background-color: #234565; width: 100%; height: 200px">Block Two</div>
+<hr/>
+<hr/>
+<div style="background-color: #882211; width: 100%; height: 200px">Block three</div>
+<hr/>
+<div style="background-color: #ff0000; width: 100%; height: 200px">Block Four</div>
+<hr/>
 <span>This is a test, it is only a test</span>
+<button>Click me!</button>
 </body>
 
 </html>
